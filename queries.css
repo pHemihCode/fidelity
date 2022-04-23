@@ -1,0 +1,108 @@
+/*-------------480px-------------------------------------------*/
+@media only screen and (max-width:480px){
+    .topleft ul li{visibility: hidden;}
+     nav .logo{width:50%;
+          height:20vh;}
+    header{height: 80vh;}
+    .headings h1{visibility:hidden;}
+    .section-first p{width:105%;}
+    .mango ul li h3{padding:5px 10px;
+                    width:50%;}
+    .contact-form{margin:0px 20px;}
+    .box{width:60%;
+    padding-right:40px;}
+    .section-2{padding-right:10px;}
+    input[type=text],
+input[type=number],
+input[type=email],
+textarea{
+    width:90%; 
+}
+input[type=submit]{
+    width:50%;}
+    label{
+        font-size:18px;
+        padding-right:20px;
+    }
+.sea{visibility: hidden;}
+.leg{visibility:hidden;}
+.copy{padding:-100px 0px;}
+}
+
+/*------------767px---------------------------------------------*/
+@media only screen and (max-width:767px){
+    .logo{
+        width: 50%;
+        height: 20%;
+        padding-top: 60px;
+    }
+    .topleft ul li{visibility: hidden;}
+    .headings h1{font-weight:100;
+                 font-size: 33px;
+                padding-bottom:60px;}
+    .row h2{text-align:center;
+            font-size:23px;
+           }
+    h3{font-size:16px;
+    }
+    .drone{height:40vh;
+          width:70%;}
+    .data{
+        height:40vh;
+        width:70%;
+    }
+    .comb{
+        height:40vh;
+        width:70%;
+    }
+    .section-first{padding: 20px 50px;}
+    .contact-form{
+        margin:0px 150px;
+    }
+    .section-2{
+        padding-top: 30px;
+        height:75vh;
+}
+.leg ul{
+    padding-top:20px;
+    padding-left: 0px;
+}
+input[type=alphanumeric]{
+    margin: 10px 245px;
+    width:30%;
+    height: 3.5vh;
+}
+input[type=button]{
+    margin-left:-250px;
+    height:5vh;
+}
+.mango ul li p{
+    width: 70.2%;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+footer{height:30vh;
+overflow:hidden;}
+.copy{padding:10px 20px;}
+.sea2{visibility: hidden;}
+
+}
+
+/*-------------------------1023px------------------------------*/
+@media only screen  and (max-width:1023){
+    .sea2{visibility: hidden;}
+    .mango ul li p{
+        width: 120%;
+        padding: 10px 0px;
+    }
+    .drone{width:70%;}
+}
+
+
+/*--------------------------1115px-----------------------------*/
+@media only screen and (max-width:1115px){
+    .sea2{width:110%;padding-right:50px; margin-right:20px;}
+    .mango ul li p{
+        width: 60%; }
+
+}

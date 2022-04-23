@@ -1,0 +1,179 @@
+/*font-family: 'EB Garamond', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Serif Pro', serif;
+*/
+body{
+    padding:0px;
+    margin:0px;
+    font-size:16px;
+    font-family: 'EB Garamond', serif;
+    background-color: rgb(205, 225, 205);
+    width:100%;
+}
+/*-----------------------------HEADER---------------------------*/
+header{
+    height:100vh;
+    background-image:url("Html/headerback3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fword h1{
+    font-family: 'Merriweather', serif;
+    color:rgb(7, 39, 7);
+    font-size:400%;
+    font-style: italic;
+    font-weight: 300;
+}
+.fword{
+    padding-top:250px;
+}
+h1{
+    padding-left:200px;
+}
+/*------------------------------NAV BAR--------------------------*/
+.main-nav{
+    padding:20px;
+}
+nav{
+    background-color:rgb(174, 214, 174);
+}
+.main-nav ul{
+    list-style:none;
+    padding-left:0px;
+}
+.main-nav ul li{
+    display:inline-block;
+    padding:0px 10px;
+}
+.main-nav ul li.right{
+    float:right;
+}
+.main-nav ul li a{
+    text-decoration:none;
+    color:rgb(2, 19, 2);
+    font-size:18px;
+}
+.main-nav ul li a:hover{
+          color:rgb(19, 115, 19);
+          border-bottom:3px solid rgb(5, 46, 5);
+}
+/*--------------------------SECTION-1-----------------*/
+.section1{
+    background-color:white;
+    margin:20px;
+    padding-bottom:10px;
+    font-family: 'EB Garamond', serif;
+}
+.secword h2{
+    font-size:200%;
+    color:rgb(7, 39, 7);
+    text-align:center;
+    font-weight:200;
+    padding-top:15px;
+}
+.paragraph p{
+    font-size:110%;
+    padding:0px 100px;
+    word-spacing:2px;
+}
+/*--------------------------SECTION-2--------------------*/
+.section2{
+    background-color: white;
+    margin:20px;
+    padding: 0px 0px;
+    padding-right:10px;
+    padding-bottom:180px;
+    font-family: 'EB Garamond', serif;
+}
+.sidebar{
+    float:right;
+    clear:right;
+    border-radius:5px;
+    margin:10px;
+    padding:0px;
+    margin-top:30px;
+}
+h3{
+    font-size:120%;
+    color:rgb(7, 39, 7);
+}
+.thirdword{
+    padding-left:100px;
+    padding-top:10px;
+}
+.passage1{
+    padding-top:80px;
+    padding-left:0px;
+}
+/*-----------------------------SECTION-3------------------------*/
+.section3{
+    margin:20px;
+    background-color:white;
+    padding:0px 300px;
+    padding-bottom:20px;
+}
+form{
+    padding-left:20px;
+}
+input[type=text],
+input[type=number],
+input[type=email]{
+    padding:5px 0;
+    margin:10px;
+    width:50%;
+}
+input[type=text]{
+    margin-left:40px;
+}
+input[type=number]{
+    margin-left:63px;
+}
+button{
+    display:block;
+}
+#mybtn{
+    margin-left:112px;
+}
+#area{
+    margin-left:5px;
+    width:49.5%;
+    margin-top:10px;
+}
+/*------------------------FOOTEER-------------------------*/
+footer{
+    background-color:rgba(5, 21, 5, 0.615);
+    font-size:120%;
+    padding-left:50px;
+    margin-bottom:-20px;
+}
+.foot ul li{
+    list-style:none;
+    margin-top:5px;
+    padding-bottom:5px;
+}
+.foot ul{
+    display:inline-block;
+    margin:10px 100px;
+}
+.foot ul li a{
+    text-decoration:none;
+    color:white;
+}
+.foot ul li a:hover{
+    color:rgb(40, 145, 40);
+}
+.foot ul li.righta a:hover{
+    color:blue;
+}
+.foot ul li.rightb a:hover{
+    color:rgb(109, 109, 227);
+}
+.foot ul li.rightc a:hover{
+    color:rgb(135, 19, 19);
+}
+.foot ul li.rightd a:hover{
+    color:rgb(142, 82, 82);
+}
+.lastword{
+    padding-left:200px;
+}

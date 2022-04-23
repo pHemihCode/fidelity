@@ -1,0 +1,71 @@
+/*-------------------480px------------------*/
+@media only screen and (max-width:480px){
+    /*-----------------HEADER----------------*/
+    .fword h1{font-size:300%;}
+    .fword{padding-top:250px;}
+    h1{padding-left:50px;}
+    /*------------------NAV BAR---------------*/
+    .main-nav ul li{display: none;}
+    .main-nav ul{padding-left:0px;}
+    .main-nav ul li:first-child{
+        display: block;
+        margin-top:0px;
+    }
+    .main-nav ul li.show{display:block;}
+    .main-nav ul li.right:last-child{
+        display: block;
+        padding-bottom:30px;
+    }
+    .right{margin-top:-20px;}
+    /*----------------------SECTION-1------------------*/
+    .secword h2{font-size:170%;}
+    .paragraph p{
+        font-size:112%;
+        padding:0px 50px;
+    }
+    /*-------------------------------SECTION-2------------*/
+    .section2{
+        padding-right:10px;
+        padding-bottom:50px;
+        font-family: 'EB Garamond', serif;
+    }
+    .sidebar{display:none;}
+    .thirdword{
+        padding-left:10px;
+        padding-top:10px;
+        text-align:center;
+    }
+    .passage1{padding-top:5px;}
+    /*--------------------------SECTIN-3---------------------*/
+    .section3{padding:0px 30px; padding-bottom:20px;}
+    #area{margin-left:5px; width:49%;}
+    /*--------------------------FOOTER------------------------*/
+    .lastword{padding-left:20px;}
+    }
+    .image img{display:none;}
+/*--------------------------768PX------------------------------*/
+@media only screen and (max-width:768px){
+    .main-nav ul li{display:none;}
+    .main-nav ul li.right{display:inline-block;}
+    .image img{display:block; width:20%; height:10vh;}
+
+
+}
+/*--------------------------1023PX------------------------------*/
+@media only screen and (max-width:1023px){
+    .passage1{margin-left:-70px; padding-top:60px;}
+    .section2{padding-bottom:40px;}
+    .foot ul{
+        display:inline-block;
+        padding-left:10px;
+    }
+    .image img{display:none;}
+    
+}
+/*--------------------------1200PX------------------------------*/
+@media only screen and (max-width:1200px){
+    .passage1{margin-bottom:60px;}
+    .second{margin-top:90px;}
+    .secword2{width:100%;}
+    .image img{display:none;}
+}
