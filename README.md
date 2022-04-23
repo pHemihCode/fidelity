@@ -1,2 +1,2 @@
 # fidelity
-This repository is about my first challenge in Dev challenge which is creating a Responsive 404 Not Found page
+This repository is about my early hmtl and css practice
